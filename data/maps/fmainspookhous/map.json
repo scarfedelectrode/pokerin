@@ -1,0 +1,74 @@
+{
+  "id": "MAP_FMAINSPOOKHOUS",
+  "name": "fmainspookhous",
+  "layout": "LAYOUT_FMAINSPOOKHOUS",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TWIN",
+      "x": 3,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "spookhousetwintalk",
+      "flag": "FLAG_UNUSED_0x26C"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TWIN",
+      "x": 4,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "spookhousetwintalk",
+      "flag": "FLAG_UNUSED_0x26C"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_FOREST_MAIN",
+      "dest_warp_id": 11
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_FOREST_MAIN",
+      "dest_warp_id": 11
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "0",
+      "script": "spookhousething"
+    }
+  ],
+  "bg_events": [
+
+  ]
+}

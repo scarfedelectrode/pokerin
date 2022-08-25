@@ -1,0 +1,41 @@
+{
+  "id": "MAP_THUNDER_THICKET",
+  "name": "ThunderThicket",
+  "layout": "LAYOUT_THUNDER_THICKET",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 20,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_THUNDER_HILLS",
+      "dest_warp_id": 3
+    },
+    {
+      "x": 21,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_THUNDER_HILLS",
+      "dest_warp_id": 4
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}
